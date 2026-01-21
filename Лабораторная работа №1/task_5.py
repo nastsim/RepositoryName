@@ -8,5 +8,5 @@ bool_true = True  # Логический тип данных истина
 bool_false = False   # Логический тип данных ложь
 print(bool_true, bool_false, type(bool_true))
 
-empty = None  # Отсутствие результата это тоже результат
+empty = None  # Отсутствие результата, это тоже результат
 print(empty, type(empty))
