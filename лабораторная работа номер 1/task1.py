@@ -6,7 +6,7 @@ none_index = numbers.index(None)
 # Создаем копию списка без None элемента для вычислений
 numbers_without_none = [num for num in numbers if num is not None]
 
-# Вычисляем сумму всех элементов кроме None
+# Вычисляем сумму всех элементов, кроме None
 total_sum = sum(numbers_without_none)
 
 # Вычисляем среднее арифметическое
